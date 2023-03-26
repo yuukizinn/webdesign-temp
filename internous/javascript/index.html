@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charaset="UTF-8">
+        <title>if</title>
+    </head>
+
+    <body>
+        <script>
+            document.write("問1" + "<br>");
+            var star = 0;
+            if(star < 1){
+                document.write("★★★★★");
+            }
+
+            document.write("<br>");
+            document.write("<br>");
+            document.write("問2" + "<br>");
+
+            for(var star1 = 0; star1 < 2; star1++){
+                for(var star2 = 0; star2 < 3; star2++){
+                    document.write("★");}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問3" + "<br>");
+
+            for(var star1 =0; star1 < 2; star1++){
+                for(star2 = 0; star2 < 5; star2++){
+                    document.write("☆");}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問4" + "<br>");
+
+            for(star1 = 0; star1 < 4; star1++){
+                for(star2 = 0; star2 < 5; star2++){
+                    document.write("★");}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問5" + "<br>");
+
+            for(star1 = 0; star1 < 4; star1++){
+                for(star2 = 0; star2 < 3; star2++){
+                    document.write("★")}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問6" + "<br>");
+
+            for(star1 = 0; star1 < 12; star1++){
+                if(star1 % 2 == 0 && star1 % 4 == 0){
+                    document.write("<br>");}
+                else if(star1 % 2 == 0){
+                    document.write("☆");}
+                else if(star1 % 2 == 1){
+                    document.write("★");}
+            }
+
+            document.write("<br>");
+            document.write("<br>");
+            document.write("問7" + "<br>");
+
+            for(star1 = 1; star1 <= 5; star1++){
+                for(star2 = 1; star2 <= 5; star2++){
+                    if(star2 % 2 == 0){
+                        document.write("☆");}
+                    else if(star2 % 2 == 1){
+                        document.write("★");}
+                    }
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問8" + "<br>");
+
+            for(var y = 1; y <=5; y++){
+                for(var star = 1; star <= y; star++){
+                    document.write("★");}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("<br>");
+
+            document.write("上級");
+            document.write("<br>");
+
+            document.write("問1" + "<br>");
+            for(star1 = 1; star1 <=5; star1++){
+                for(star2 = 1; star2 <=5; star2++){
+                    document.write('★');}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問2" + "<br>");
+
+            var a = 1;
+            while(a <= 25){
+                if(a % 2 == 0){
+                    document.write("☆");}
+                else if(a % 2 == 1){
+                    document.write("★");}
+                if(a % 5 == 0){
+                    document.write("<br>")}
+                a++;
+            }
+
+            document.write("<br>");
+            document.write("問3" + "<br>");
+
+            var star1 = 0;
+            while(star1 < 25){
+                if(star1 != 0 && star1 % 5 == 0){
+                    document.write("<br>");}
+                if(star1 == 0 || star1 % 6 == 0){
+                    document.write("☆");}
+                else{
+                    document.write("★");}
+                star1++;
+            }
+
+            document.write("<br>");
+            document.write("<br>");
+
+
+
+            for(star1 = 1; star1 <= 5; star1++){
+                for(star2 = 1; star2 <= 5; star2++){
+                    if(star1 == star2){
+                        document.write("☆");}
+                    else{
+                        document.write("★");}
+                    if(star2 == 5){
+                        document.write("<br>");
+                    }
+                }
+            }
+
+            document.write("<br>");
+            document.write("問4" + "<br>");
+
+            for(star1 = 1; star1 <= 5; star1++){
+                for(star2 = 1; star2 <= 5; star2++){
+                    if(star1 >= star2){
+                        document.write("★");
+                    }
+                    if(star1 == star2){
+                        document.write("<br>");
+                    }
+                }
+            }
+
+            document.write("<br>");
+
+            for(var y = 1; y <=5; y++){
+                for(var star = 1; star <= y; star++){
+                    document.write("★");}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+
+            for(star1 = 1; star1 <= 5; star1++){
+                for(star2 = 1; star2 <= star1; star2++){
+                    document.write("★");}
+                document.write("<br>");
+            }
+
+            document.write("<br>");
+            document.write("問5" + "<br>");
+
+            for(star1 = 1; star1 <= 5; star1++){
+                for(star2 = 1; star2 <= 5; star2++){
+                    if(star1 == star2){
+                        document.write("☆" + "<br>");}
+                    else if(star1 >= star2){
+                        document.write("★");
+                    }
+                }
+            }
+
+
+            document.write("<br>");
+        </script>
+        <form>
+            <select name="age">
+            <option value="a">選択してください</option>
+                <script>
+                    for(var i = 18; i <= 65; i++){
+                        document.write("<option value='z'>");
+                        document.write(i);
+                        document.write("</option>");
+                    }
+                </script>
+            </select>
+        </form>
+
+        <script>
+
+            document.write("問1"+"<br>");
+
+            function menseki(hankei,hankei,ensyu,){
+                return "つ目の面積は" + hankei*hankei*ensyu + "平方cmです。";
+            }
+            document.write("1");
+            document.write(menseki(5,5,3.14)+"<br>");
+            document.write("2");
+            document.write(menseki(7,7,3.14)+"<br>");
+            document.write("3");
+            document.write(menseki(10,10,3.14)+"<br>");
+
+
+            document.write("<br>")
+            document.write("問2"+"<br>");
+
+
+            function totalprice(otona, kodomo,){
+                return "グループの合計金額は" + otona*500+kodomo*200 + "円です。";
+            }
+            document.write("A");
+            document.write(totalprice(2,4)+"<br>");
+            document.write("B");
+            document.write(totalprice(1,5)+"<br>");
+            document.write("C");
+            document.write(totalprice(3,7)+"<br>");
+        </script>
+
+
+
+    </body>
+</html>

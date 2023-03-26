@@ -1,0 +1,94 @@
+.logo{
+    width: 350px;
+}
+
+header{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul li{
+    float: left;
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+
+main{
+    clear: left;
+}
+    
+    .container1{
+        float: left;
+        width: 60%;
+}
+    .container1 h1{
+        border-left: 5px solid black;
+        border-bottom: 2px solid black;
+        padding-left: 10px;
+        font-size: 30px
+}
+    .container1 .abc{
+        border-left: 4px red solid;
+        background-color: #f1f1f1;
+        padding:5px 5px 5px 5px;
+        margin-left: 15px;
+}
+    .container1 form{
+        background-color: #fbfbfb;
+        border: 2px solid gray;
+}
+    form div{
+        padding: 15px;
+}           
+    .name, .title, textarea{
+        border: 1px solid #dfdfdf;
+        padding: 5px;
+        color: #999;
+        background: #fff
+}
+    .submit{
+        border: 1px solid lightgray;
+        padding: 4px 10px;
+        color: white;
+        background-color: #bfbfbf;
+        border-radius: 5px;
+        border-bottom: 3px solid gray;
+}
+    .container2{
+        float: left;
+        width: 40%;
+        padding-top: 20px;
+}   
+    .container2 ul h3{
+        border-bottom: 3px dotted black;
+}
+    .container2 ul li{
+        list-style-type: none;
+        padding-bottom: 30px;
+        line-height: 0px;
+}
+.container3{
+    float:left;
+    width:60%;
+    border: 2px solid gray;
+    background-color: #fbfbfb;
+    margin-top:40px;
+    
+}
+
+
+footer{
+        float:left;
+        width: 100%;
+        height: 60px;
+        margin-top:100px;
+        text-align: center;
+        line-height: 60px;
+        background-color: black;
+        color: white;
+}

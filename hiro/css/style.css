@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/*----- 共通 -----*/
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+	color: #432;
+}
+
+main {
+	margin: 0 4%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	padding: 0 4%;
+}
+
+/* header */
+.page-header {
+	background-image: url(../images/banner.jpeg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	/* background-color: #fffacd; */
+}
+
+.logo {
+	height: 40px;
+	width: 230px;
+}
+
+.main-nav ul {
+	display: flex;
+	list-style: none;
+	font-size: 1.25rem;
+}
+
+.main-nav ul li a {
+	display: block;
+	padding: 10px 0;
+	margin: 0 10px;
+	color: black;
+}
+
+.main-nav ul li a:hover {
+	background-color: #faf1a0b0;;
+	color: grey;
+}
+/* header */
+
+/* footer */
+footer {
+	background: grey;
+	text-align: center;
+}
+
+footer p {
+	color: white;
+}
+/* footer */
+
+/* access-path */
+.access-path a {
+	text-decoration: underline;
+}
+
+.access-path a:hover {
+	color: grey;
+}
+/* access-path */
+/*----- 共通 -----*/
+
+/*----- 紹介 -----*/
+.introduction-contents {
+	display: flex;
+	border-top: double;
+	border-bottom: inset;
+}
+
+.introduction-contents article {
+	width: 35%;
+}
+
+.introduction-contents aside {
+	width: 60%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 1rem;
+	gap: 20px;
+}
+
+.introduction-contents article h4 {
+	margin-top:20px;
+}
+
+.introduction-contents aside .item img {
+	width:400px;
+	height:300px;
+}
+/*----- 紹介 -----*/
+
+/*----- ギャラリー -----*/
+.gallery-contents {
+	display: flex;
+	flex-flow: column;
+	border-top: double;
+	border-bottom: inset;
+}
+
+.gallery-contents aside {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.gallery-contents aside .item img {
+	width:300px;
+	height:200px;
+}
+/*----- ギャラリー -----*/
+
+/*----- 入会 -----*/
+.join-contents {
+	border-top: double;
+	border-bottom: inset;
+}
+/*----- 入会 -----*/
+
+/*----- お問合せ -----*/
+.inquiry-contents {
+	border-top: double;
+	border-bottom: inset;
+}
+
+.inquiry-contents form div {
+	display: flex;
+	flex-direction: column;
+	/* background-color: grey; */
+}
+
+.example {
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	border: 1px grey solid;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	max-width: 300px;
+}
+
+textarea {
+	width: 100%;
+	max-width: 600px;
+	height: 10rem;
+}
+
+input[type="submit"] {
+	width: 50px;
+	background-color: grey;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.map-contents {
+	display: flex;
+}
+
+.map-contents div {
+	margin-right:50px;
+}
+
+/*----- お問合せ -----*/
+.bg_test {
+	/* background-image: linear-gradient(#c9ffbf, #ffafbd); */
+	background-image: url(../images/top.jpeg);
+	min-height: 100vh;
+	/* background-color: grey; */
+	/* background-blend-mode: screen; */
+	background-size: cover;
+	margin: 0 30px;
+	border-left: solid 50px;
+	border-right: solid 50px;
+}
+
+.bg_test-text {
+	font-size: 50px;
+	text-align: center;
+    border: solid 1px;
+    display:  inline-block;
+	margin: 200px 100px;
+	/* padding: 50px 20px; */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
